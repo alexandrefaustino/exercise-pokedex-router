@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={Pokedex} />
+        <Route path="/" render={(props) => <Pokedex {...props} pokemons={pokemons}/>} />
       </Switch>
     </BrowserRouter>
   );
