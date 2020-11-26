@@ -41,7 +41,19 @@ figcaption {
   width: 70px;  
 }
 
+.not-found-image {
+  width: 350px;
+}
+
 .spanLink {
   margin-left: 15px;
   margin-right: 15px;
+}
+
+.spanNotFound {
+  margin-top: 10px;
+  display: block;  
+  font-size: 30px;
+  padding-bottom: 50px;
+  
 }
